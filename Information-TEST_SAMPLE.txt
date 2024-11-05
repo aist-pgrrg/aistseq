@@ -1,0 +1,7 @@
+Primary	read1	read2	expected_reads	plasmid_name	output_directory	Type_of_run	Reference
+1	PS-01A01_S1_L001_R1_001.fastq.gz	PS-01A01_S1_L001_R2_001.fastq.gz	10000	01_3kbp_rep1_500	Suzuki_size_rif	y	pUC18_3kbp.fa
+9	PS-01A02_S2_L001_R1_001.fastq.gz	PS-01A02_S2_L001_R2_001.fastq.gz	10000	02_3kbp_rep2_500	Suzuki_size_rif	y	pUC18_3kbp.fa
+2	PS-01B01_S13_L001_R1_001.fastq.gz	PS-01B01_S13_L001_R2_001.fastq.gz	10000	03_3kbp_rep1_250	Suzuki_size_rif	y	pUC18_3kbp.fa
+1	PS-01A01_S1_L001_R1_001.fastq.gz	PS-01A01_S1_L001_R2_001.fastq.gz	10000	01_3kbp_rep1_500	Suzuki_size	n	
+9	PS-01A02_S2_L001_R1_001.fastq.gz	PS-01A02_S2_L001_R2_001.fastq.gz	10000	02_3kbp_rep2_500	Suzuki_size	n	
+2	PS-01B01_S13_L001_R1_001.fastq.gz	PS-01B01_S13_L001_R2_001.fastq.gz	10000	03_3kbp_rep1_250	Suzuki_size	n	
