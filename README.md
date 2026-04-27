@@ -179,9 +179,9 @@ Primary key	read1	read2	expected_reads	plasmid_name	output_directory	Type_of_run
 ### Basic command
 
 ```bash
-bash Plasmid_assembly-2-Options-comand.sh \
-    -i input.zip \
-    -t metadata.txt \
+bash Plasmid_assembly-2-Options-comand-V8_7_docker.sh \
+    -i INPUT_FILE_TEST_SAMPLE.zip \
+    -t Information-TEST_SAMPLE_V7.txt \
     -o output_dir
 ```
 
@@ -316,15 +316,5 @@ This pipeline supports the AistSeq framework:
   * Assembly ambiguity
   * Low coverage
   * Structural complexity
-
----
-
-## 📌 Summary
-
-AistSeq provides:
-
-* A **compact, reproducible plasmid sequencing workflow**
-* Integrated **assembly + QC + annotation**
-* Optimized for **in-house synthetic biology pipelines**
 
 ---
